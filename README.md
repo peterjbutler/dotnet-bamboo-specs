@@ -56,6 +56,14 @@ C:\> choco install ikvm
 
 Note: This is really the heart of the process as it translates the java `byte-code` into `CIL` and compiles it into dotnet compatible DLL's.
 
+### NuGet
+
+The build script uses `NuGet` to package the dotnet DLL's, use the following chocolatey command to install it.
+
+```
+C:\> choco install nuget.commandline
+```
+
 ### dot-net-bamboospecs
 
 Clone this GitHub repository and change directory:
