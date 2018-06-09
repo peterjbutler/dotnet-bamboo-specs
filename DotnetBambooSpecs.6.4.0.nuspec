@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DotnetBambooSpecs</id>
+    <version>6.4.0</version>
+    <title>Dotnet Bamboo Specs Wrapper</title>
+    <authors>Peter Butler</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An IKVM wrapped package for Atlassian Bamboo Specs 6.4.0.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework2.0">
+        <dependency id="IKVM" version="8.1.5717" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="dotnet\bamboo-specs-6.4.0.dll" target="lib\net20\bamboo-specs-6.4.0.dll" />
+    <file src="dotnet\bamboo-specs-api-6.4.0.dll" target="lib\net20\bamboo-specs-api-6.4.0.dll" />
+    <file src="dotnet\commons-beanutils-1.9.2.dll" target="lib\net20\commons-beanutils-1.9.2.dll" />
+    <file src="dotnet\commons-codec-1.9.dll" target="lib\net20\commons-codec-1.9.dll" />
+    <file src="dotnet\commons-collections-3.2.2.dll" target="lib\net20\commons-collections-3.2.2.dll" />
+    <file src="dotnet\commons-digester-1.8.1.dll" target="lib\net20\commons-digester-1.8.1.dll" />
+    <file src="dotnet\commons-lang3-3.4.dll" target="lib\net20\commons-lang3-3.4.dll" />
+    <file src="dotnet\commons-logging-1.2.dll" target="lib\net20\commons-logging-1.2.dll" />
+    <file src="dotnet\commons-validator-1.5.1.dll" target="lib\net20\commons-validator-1.5.1.dll" />
+    <file src="dotnet\gson-2.8.0.dll" target="lib\net20\gson-2.8.0.dll" />
+    <file src="dotnet\httpclient-4.5.2.dll" target="lib\net20\httpclient-4.5.2.dll" />
+    <file src="dotnet\httpcore-4.4.4.dll" target="lib\net20\httpcore-4.4.4.dll" />
+    <file src="dotnet\snakeyaml-1.18.dll" target="lib\net20\snakeyaml-1.18.dll" />
+  </files>
+</package>
