@@ -1,22 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.dotnet.bamboo-specs</groupId>
-  <artifactId>dot-net-bamboo-specs</artifactId>
+  <groupId>com.dotnet.bamboo.specs</groupId>
+  <artifactId>dotnet-bamboo-specs</artifactId>
   <packaging>jar</packaging>
-  <version>6.4.0</version>
-  <name>dot-net-bamboo-specs</name>
+  <version>6.5.0</version>
+  <name>dotnet-bamboo-specs</name>
   <url>http://maven.apache.org</url>
   <dependencies>
 	    <dependency>
       <groupId>com.atlassian.bamboo</groupId>
       <artifactId>bamboo-specs-api</artifactId>
-	  <version>6.4.0</version>
+	  <version>6.5.0</version>
     </dependency>
     <dependency>
       <groupId>com.atlassian.bamboo</groupId>
       <artifactId>bamboo-specs</artifactId>
-	  <version>6.4.0</version>
+	  <version>6.5.0</version>
     </dependency>
   </dependencies>
 </project>

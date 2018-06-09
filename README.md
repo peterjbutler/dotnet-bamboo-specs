@@ -1,8 +1,8 @@
 # dotnet-bamboo-specs
 
-This package allows the use of the Atlassian Bamboo Specs API natively from with dotnet.
+This package allows the use of the Atlassian Bamboo Specs API natively from within dotnet.
 
-Built for [`bamboo-specs-6.4.0`](https://docs.atlassian.com/bamboo-specs-docs/6.4.0/).
+Built for [`bamboo-specs-6.5.0`](https://docs.atlassian.com/bamboo-specs-docs/6.5.0/).
 
 ## Pre-requisites
 
@@ -38,7 +38,7 @@ C:\> choco install psake
 
 ### Maven
 
-The build script uses `maven` to download the required `java` dependencies for the [Atlassian Bamboo Specs](https://docs.atlassian.com/bamboo-specs-docs/6.4.0/) packages, use the following chocolatey command to install it.
+The build script uses `maven` to download the required `java` dependencies for the [Atlassian Bamboo Specs](https://docs.atlassian.com/bamboo-specs-docs/6.5.0/) packages, use the following chocolatey command to install it.
 
 ```
 C:\> choco install maven
@@ -126,7 +126,7 @@ C:\dotnet-bamboo-specs\nuget> dir
 
 08/06/2018  15:17    <DIR>          .
 08/06/2018  15:17    <DIR>          ..
-08/06/2018  15:17         1,602,727 DotnetBambooSpecs.6.4.0.nupkg
+08/06/2018  15:17         1,602,727 DotnetBambooSpecs.6.5.0.nupkg
                1 File(s)      1,602,727 bytes
                2 Dir(s)  999,999,999,999 bytes free
 ```

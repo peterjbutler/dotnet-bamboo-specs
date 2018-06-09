@@ -45,7 +45,7 @@ Task Header {
 	Write-Host "    Author: Peter John Butler"
 	Write-Host "    Link: https://github.com/peterjbutler/dotnet-bamboo-specs.git"
 	Write-Host ""
-	Write-Host "================================= Version 6.4.0 ================================="
+	Write-Host "================================= Version 6.5.0 ================================="
 	Write-Host ""
 	Write-Host ""
 }
@@ -170,7 +170,7 @@ Task IkvmcBuild-snakeyaml {
 }
 
 Task IkvmcBuild-bamboo-specs-api -depends IkvmcBuild-commons-lang {
-	ikvmc .\java\bamboo-specs-api-6.4.0.jar -target:library -r:.\dotnet\commons-lang3-3.4.dll -out:.\dotnet\bamboo-specs-api-6.4.0.dll
+	ikvmc .\java\bamboo-specs-api-6.5.0.jar -target:library -r:.\dotnet\commons-lang3-3.4.dll -out:.\dotnet\bamboo-specs-api-6.5.0.dll
 	if ($lastexitcode -ne 0)
 	{
 		Write-Host "[ERROR]" -ForegroundColor Red
@@ -220,7 +220,7 @@ Task IkvmcBuild-commons-validator -depends IkvmcBuild-commons-beanutils, IkvmcBu
 }
 
 Task IkvmcBuild-bamboo-specs -depends IkvmcBuild-commons-lang, IkvmcBuild-gson, IkvmcBuild-httpcore, IkvmcBuild-snakeyaml, IkvmcBuild-bamboo-specs-api, IkvmcBuild-httpclient, IkvmcBuild-commons-validator {
-	ikvmc .\java\bamboo-specs-6.4.0.jar -target:library -r:.\dotnet\bamboo-specs-api-6.4.0.dll -r:.\dotnet\snakeyaml-1.18.dll -r:.\dotnet\commons-lang3-3.4.dll -r:.\dotnet\gson-2.8.0.dll -r:.\dotnet\commons-validator-1.5.1.dll -r:.\dotnet\httpcore-4.4.4.dll -r:.\dotnet\httpclient-4.5.2.dll -out:.\dotnet\bamboo-specs-6.4.0.dll
+	ikvmc .\java\bamboo-specs-6.5.0.jar -target:library -r:.\dotnet\bamboo-specs-api-6.5.0.dll -r:.\dotnet\snakeyaml-1.18.dll -r:.\dotnet\commons-lang3-3.4.dll -r:.\dotnet\gson-2.8.0.dll -r:.\dotnet\commons-validator-1.5.1.dll -r:.\dotnet\httpcore-4.4.4.dll -r:.\dotnet\httpclient-4.5.2.dll -out:.\dotnet\bamboo-specs-6.5.0.dll
 	if ($lastexitcode -ne 0)
 	{
 		Write-Host "[ERROR]" -ForegroundColor Red
