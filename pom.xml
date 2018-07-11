@@ -4,19 +4,19 @@
   <groupId>com.dotnet.bamboo.specs</groupId>
   <artifactId>dotnet-bamboo-specs</artifactId>
   <packaging>jar</packaging>
-  <version>6.5.0</version>
+  <version>6.6.0</version>
   <name>dotnet-bamboo-specs</name>
   <url>http://maven.apache.org</url>
   <dependencies>
 	    <dependency>
       <groupId>com.atlassian.bamboo</groupId>
       <artifactId>bamboo-specs-api</artifactId>
-	  <version>6.5.0</version>
+	  <version>6.6.0</version>
     </dependency>
     <dependency>
       <groupId>com.atlassian.bamboo</groupId>
       <artifactId>bamboo-specs</artifactId>
-	  <version>6.5.0</version>
+	  <version>6.6.0</version>
     </dependency>
   </dependencies>
 </project>
